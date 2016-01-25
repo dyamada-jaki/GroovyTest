@@ -1,0 +1,2 @@
+# GroovyTest
+Gradleを勉強するためにGroovyの勉強をしてみるテストプロジェクトリポジトリ
