@@ -7,10 +7,11 @@ class ClosureTest01 {
 		// クロージャには引数を渡すこともできる。
 		
 		// クロージャの定義　　　↓仮引数
-		Closure clos = { param -> println "受け取った引数は $param" }
+		Closure clos = { param="a", param2="v" -> println "受け取った引数は $param, $param2" }
 		
 		// クロージャを実行
-		clos("「引数」");
+		clos("「引数」", "wwww");
+		clos(param2:"xxxx");
 		
 		// 予約されている引数の例
 		// it : 一つの引数を取る場合の仮引数

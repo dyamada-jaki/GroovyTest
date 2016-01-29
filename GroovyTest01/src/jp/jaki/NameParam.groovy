@@ -20,7 +20,7 @@ class NameParam {
 		// Mapの参照は、「.」（ピリオド）で参照できる。
 		println "title:" + param.title;
 		println "value:" + param.value;
-		println "default:" + param.default;
+		println "default:" + param.default2;
 	}
 	
 	static defaultData(String key1="デフォルトキー", String val1) {
